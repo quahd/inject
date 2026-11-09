@@ -433,7 +433,7 @@ fn main() -> io::Result<()> {
     // };
 
     match inject_sensor_into_target(
-        "notepad++.exe",
+        "Notepad.exe",
         r"C:\Windows\Temp\test_dll.dll",
     ) {
         Ok(()) => println!("[+] DLL injected successfully"),
